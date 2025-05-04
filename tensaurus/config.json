@@ -1,0 +1,8 @@
+{
+    "DESIGN_NAME": "tensaurus",
+    "VERILOG_FILES": ["dir::tensaurus.sv"],
+    "CLOCK_PERIOD": 25,
+    "CLOCK_PORT": "clk",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 1250 1250"
+  }

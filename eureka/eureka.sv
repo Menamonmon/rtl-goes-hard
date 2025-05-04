@@ -8,13 +8,11 @@ module eureka #(
     output logic [$clog2(NUM_INPUTS):0] num_valid  // Number of valid (nonzero) outputs
 );
 
-  // Internal signals
   logic is_nonzero[NUM_INPUTS-1:0];
   logic [$clog2(NUM_INPUTS):0] prefix_sum[NUM_INPUTS:0];
 
   integer i;
 
-  // Step 1: Detect nonzeros
   always_comb begin
     for (i = 0; i < NUM_INPUTS; i = i + 1) begin
       is_nonzero[i] = (input_matrix[i] != 0);
