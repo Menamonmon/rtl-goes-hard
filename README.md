@@ -1,9 +1,8 @@
-# rtl-goes-hard
+# Team 18 - Modeling Sparse Intesection Units (Spring 2025)
+# Running Synthesis
+* Download OpenLane 2
+
+# Running Accelergy
+* Use lab 4 as a starting point
 
 
-# Common Interface for the Intersection Calculators
-
-* N x M input matrix, M x K weight matrix, N x K output matrix 
-* W = is the size of address word
-* X_i = is the size of input/weight elements (varies can have multiple ones)
-* Y = is the size the output element
