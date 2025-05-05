@@ -1,0 +1,60 @@
+architecture:
+  version: 0.4
+  nodes:
+  - !Container
+    name: system
+    attributes:
+      technology: "45nm"
+      datawidth: 8
+    
+  - !Component
+    name: DRAM
+    class: DRAM_metadata
+    attributes:
+      depth: 512
+      width: 32
+      datawidth: datawidth
+
+      metadata_depth: 128
+      metadata_datawidth: 4
+      metadata_width: metadata_datawidth
+    
+    constraints:
+      temporal:
+        factors: [M=1, K=1]
+        permutation: [N, K, M]
+
+  - !Component
+    name: Buffer
+    class: storage
+    subclass: regfile_metadata
+    attributes:
+      depth: 192
+      width: datawidth
+      datawidth: datawidth
+
+      metadata_depth: 192
+      metadata_datawidth: 4
+      metadata_width: metadata_datawidth
+
+      read_bandwidth: 30
+      write_bandwidth: 30
+
+  - !Component
+    name: Tensaurus
+    class: compute       # <<< Pretending SIU as a storage block
+    subclass: Tensaurus
+    attributes:
+      depth: 1            # Just 1 entry needed
+      width: datawidth
+      datawidth: datawidth
+      BLOCK_SIZE: 8       # Parameters your SparseIntersectionUnit expects
+      NUM_SELECT: 4
+      WORD_SIZE: 8
+
+  - !Component
+    name: MAC
+    class: compute
+    subclass: compute_gating
+    attributes:
+      datawidth: datawidth
