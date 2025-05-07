@@ -1,0 +1,24 @@
+94. Printing statistics.
+
+=== tensaurus ===
+
+   Number of wires:                 19
+   Number of wire bits:             72
+   Number of public wires:          10
+   Number of public wire bits:      63
+   Number of ports:                 10
+   Number of port bits:             63
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 44
+     $_DFFE_PP0N_                    8
+     $_DFFE_PP0P_                   26
+     $_DFF_PP0_                      1
+     $_OR_                           9
+
+   Area for cell type $_OR_ is unknown!
+   Area for cell type $_DFF_PP0_ is unknown!
+   Area for cell type $_DFFE_PP0N_ is unknown!
+   Area for cell type $_DFFE_PP0P_ is unknown!
+

@@ -1,0 +1,144 @@
+Running 'synthesis-AREA 0' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-0'…
+Running 'synthesis-AREA 1' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-1'…
+Running 'synthesis-AREA 2' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-2'…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-2/synthesis-area-2.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-0/synthesis-area-0.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-1/synthesis-area-1.log'[/repr.filename]…
+Subprocess had a non-zero exit.
+Subprocess had a non-zero exit.
+Subprocess had a non-zero exit.
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-area-2/AREA_2.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-aJ4l4S/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-aJ4l4S/output.blif'.
+
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-area-1/AREA_1.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-HpAvQJ/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-HpAvQJ/output.blif'.
+
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-area-0/AREA_0.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-zAAiXS/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-zAAiXS/output.blif'.
+
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-2/synthesis-area-2.log'
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-1/synthesis-area-1.log'
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-0/synthesis-area-0.log'
+Running 'synthesis-AREA 3' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-3'…
+Running 'synthesis-DELAY 0' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-0'…
+Running 'synthesis-DELAY 1' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-1'…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-3/synthesis-area-3.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-0/synthesis-delay-0.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-1/synthesis-delay-1.log'[/repr.filename]…
+Subprocess had a non-zero exit.
+Subprocess had a non-zero exit.
+Subprocess had a non-zero exit.
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-area-3/AREA_3.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-oyo5sO/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-oyo5sO/output.blif'.
+
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-1/DELAY_1.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-m9eXQN/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-m9eXQN/output.blif'.
+
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-0/DELAY_0.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-JiOU78/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-JiOU78/output.blif'.
+
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-area-3/synthesis-area-3.log'
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-1/synthesis-delay-1.log'
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-0/synthesis-delay-0.log'
+Running 'synthesis-DELAY 2' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-2'…
+Running 'synthesis-DELAY 3' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-3'…
+Running 'synthesis-DELAY 4' at 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-4'…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-4/synthesis-delay-4.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-2/synthesis-delay-2.log'[/repr.filename]…
+Logging subprocess to [repr.filename]'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-3/synthesis-delay-3.log'[/repr.filename]…
+Subprocess had a non-zero exit.
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-2/DELAY_2.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-uDzrAQ/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-uDzrAQ/output.blif'.
+
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-2/synthesis-delay-2.log'
+Subprocess had a non-zero exit.
+Subprocess had a non-zero exit.
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-4/DELAY_4.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-ZTsUdu/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-ZTsUdu/output.blif'.
+
+Last 10 line(s):
+
+[INFO] Using generated ABC script '/Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-3/DELAY_3.abc'…
+
+101. Executing ABC pass (technology mapping using ABC).
+
+101.1. Extracting gate netlist of module `\tensaurus' to `/tmp/yosys-abc-qHoNLH/input.blif'..
+Extracted 78 gates and 139 wires to a netlist network with 61 inputs and 70 outputs.
+
+101.1.1. Executing ABC.
+ERROR: Can't open ABC output file `/tmp/yosys-abc-qHoNLH/output.blif'.
+
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-4/synthesis-delay-4.log'
+Full log file: 'runs/RUN_2025-05-06_19-28-56/1-synthesis-delay-3/synthesis-delay-3.log'

@@ -1,0 +1,7 @@
+
+15. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\tensaurus.\i_index' from process `\tensaurus.$proc$/Users/justinmalloy/My$20Drive$20(jamalloy@mit.edu)/(S6)$20Spring$202025/6.5930$20Hardware$20Architecture$20for$20Deep$20Learning/rtl-goes-hard/tensaurus/tensaurus.sv:0$3'.
+No latch inferred for signal `\tensaurus.\j_index' from process `\tensaurus.$proc$/Users/justinmalloy/My$20Drive$20(jamalloy@mit.edu)/(S6)$20Spring$202025/6.5930$20Hardware$20Architecture$20for$20Deep$20Learning/rtl-goes-hard/tensaurus/tensaurus.sv:0$3'.
+No latch inferred for signal `\tensaurus.\k_index' from process `\tensaurus.$proc$/Users/justinmalloy/My$20Drive$20(jamalloy@mit.edu)/(S6)$20Spring$202025/6.5930$20Hardware$20Architecture$20for$20Deep$20Learning/rtl-goes-hard/tensaurus/tensaurus.sv:0$3'.
+No latch inferred for signal `\tensaurus.\nnz_addr_out' from process `\tensaurus.$proc$/Users/justinmalloy/My$20Drive$20(jamalloy@mit.edu)/(S6)$20Spring$202025/6.5930$20Hardware$20Architecture$20for$20Deep$20Learning/rtl-goes-hard/tensaurus/tensaurus.sv:0$3'.
+No latch inferred for signal `\tensaurus.\out_data_valid' from process `\tensaurus.$proc$/Users/justinmalloy/My$20Drive$20(jamalloy@mit.edu)/(S6)$20Spring$202025/6.5930$20Hardware$20Architecture$20for$20Deep$20Learning/rtl-goes-hard/tensaurus/tensaurus.sv:0$3'.

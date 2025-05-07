@@ -1,0 +1,43 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 16.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /Users/justinmalloy/My Drive (jamalloy@mit.edu)/(S6) Spring 2025/6.5930 Hardware Architecture for Deep Learning/rtl-goes-hard/tensaurus/runs/RUN_2025-05-06_19-28-56/tmp/dd8f363082a74f78aad0106a93a4ac02.lib ",
+   "modules": {
+      "\\tensaurus": {
+         "num_wires":         19,
+         "num_wire_bits":     72,
+         "num_pub_wires":     10,
+         "num_pub_wire_bits": 63,
+         "num_ports":         10,
+         "num_port_bits":     63,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         44,
+         "num_cells_by_type": {
+            "$_DFFE_PP0N_": 8,
+            "$_DFFE_PP0P_": 26,
+            "$_DFF_PP0_": 1,
+            "$_OR_": 9
+         }
+      }
+   },
+      "design": {
+         "num_wires":         19,
+         "num_wire_bits":     72,
+         "num_pub_wires":     10,
+         "num_pub_wire_bits": 63,
+         "num_ports":         10,
+         "num_port_bits":     63,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         44,
+         "num_cells_by_type": {
+            "$_DFFE_PP0N_": 8,
+            "$_DFFE_PP0P_": 26,
+            "$_DFF_PP0_": 1,
+            "$_OR_": 9
+         }
+      }
+}
+
